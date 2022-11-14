@@ -14,7 +14,6 @@ const BUTTON_TYPE_CLASSES = {
 }
 
 const Button = (props) => {
-  console.log(props)
   const { children, buttonType, ...otherProps } = props
   return (
     <button
